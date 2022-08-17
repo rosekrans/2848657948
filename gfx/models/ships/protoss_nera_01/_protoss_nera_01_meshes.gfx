@@ -1,0 +1,214 @@
+objectTypes = {
+	
+	# Color variant #06
+	
+	
+	pdxmesh = {
+		name = "protoss_nera_01_titan_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_titan.mesh"
+		scale = 1.0
+		
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_nera_01_battleship_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_battleship.mesh"
+		scale = 1.0
+		
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_nera_01_colony_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_colony.mesh"
+		scale = 1.0
+		
+        }
+    }
+
+	pdxmesh = {
+		name = "protoss_nera_01_transportship_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_transport.mesh"
+		scale = 1.0
+		
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_nera_01_turrets_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_obserbstation.mesh"
+		scale = 1.0
+		
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_nera_01_citadel_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_citadel.mesh"
+		scale = 3.3
+
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_nera_01_starfortress_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_starfortress.mesh"
+		scale = 2.8
+		
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_nera_01_starhold_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_starhold.mesh"
+		scale = 2.3
+		
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_nera_01_starport_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_starport.mesh"
+		scale = 2.0
+		
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_nera_01_outpost_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_outpost.mesh"
+		scale = 2.0
+		
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_nera_01_observestation_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_obserbstation.mesh"
+		scale = 2.0
+		
+		}
+	}
+
+	pdxmesh = {
+		name = "protoss_nera_01_ioncannon_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_ioncannon.mesh"
+		scale = 1.2
+		
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_nera_01_constructor_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_constructor.mesh"
+		scale = 1.0
+
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_nera_01_destroyer_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_destroyer.mesh"
+		scale = 1.0
+
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_nera_01_scienceship_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_science.mesh"
+		scale = 1.0
+
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_nera_01_station_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_station.mesh"
+		scale = 1.0
+
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_nera_01_wormhole_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_wormhole.mesh"
+		scale = 1.0
+
+		}
+	}
+
+	pdxmesh = {
+		name = "protoss_nera_01_terraform_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_terraform.mesh"
+		scale = 1.0
+
+		}
+	}
+
+	pdxmesh = {
+		name = "protoss_nera_01_research_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_research.mesh"
+		scale = 1.0
+
+		}
+	}
+
+	pdxmesh = {
+		name = "protoss_nera_01_mining_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_mining.mesh"
+		scale = 1.0
+
+		}
+	}
+
+	pdxmesh = {
+		name = "protoss_nera_01_cruiser_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_cruiser.mesh"
+		scale = 1.0
+		
+		}
+	}
+		
+	pdxmesh = {
+		name = "protoss_nera_01_corvette_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_corvette.mesh"
+		scale = 1.0
+		
+		}
+	}
+	
+	
+	pdxmesh = {
+		name = "protoss_nera_01_bomber_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_bomber.mesh"
+		scale = 1.0
+		
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_nera_01_fighter_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_intercept.mesh"
+		scale = 1.0
+		
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_nera_01_cargo_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_transport.mesh"
+		scale = 1.0
+		
+		}
+	}
+
+	pdxmesh = {
+		name = "protoss_nera_01_droppod_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_transport.mesh"
+		scale = 1.0
+		
+		}
+	}
+}

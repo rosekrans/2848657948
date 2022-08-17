@@ -1,0 +1,58 @@
+objectTypes = {
+
+#######  NSC  #######	
+	
+	pdxmesh = {
+		name = "protoss_nera_01_strikecruiser_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_strikecruiser.mesh"
+		scale = 6.9
+		
+		}
+	}
+	pdxmesh = {
+		name = "protoss_nera_01_battlecruiser_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_battlecruiser.mesh"
+		scale = 7.0
+		
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_nera_01_support_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_support.mesh"
+		scale = 5.6
+		
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_nera_01_carrier_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_carrier.mesh"
+		scale = 7.3
+		
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_nera_01_dreadnought_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_dreadnought.mesh"
+		scale = 10.0
+		
+		}
+	}
+	
+	pdxmesh = (
+		name = "protoss_nera_01_explorationship_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_explore.mesh"
+		scale = 5.0
+		
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_nera_01_flagship_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_flagship.mesh"
+		scale = 15.0
+		
+	}
+}

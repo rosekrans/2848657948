@@ -1,0 +1,61 @@
+objectTypes = {
+    pdxmesh = {
+        name = "protoss_nera_01_titan_mesh"
+        file = "protoss_nera_01_titan.mesh"
+        scale = 1
+
+        meshsettings = {
+            name = "shield"
+            index = 0
+            texture_diffuse = "test_diff"
+            texture_normal = "nonormal.dds"
+            texture_specular = "nospec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "shield"
+            index = 1
+            texture_diffuse = "test_diff"
+            texture_normal = "nonormal.dds"
+            texture_specular = "nospec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "shield"
+            index = 2
+            texture_diffuse = "test_diff"
+            texture_normal = "nonormal.dds"
+            texture_specular = "nospec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "shield"
+            index = 3
+            texture_diffuse = "test_diff"
+            texture_normal = "nonormal.dds"
+            texture_specular = "nospec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "shield"
+            index = 4
+            texture_diffuse = "test_diff"
+            texture_normal = "nonormal.dds"
+            texture_specular = "nospec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "shield"
+            index = 5
+            texture_diffuse = "test_diff"
+            texture_normal = "nonormal.dds"
+            texture_specular = "nospec.dds"
+            shader = "PdxMeshShip"
+        }
+    }
+}

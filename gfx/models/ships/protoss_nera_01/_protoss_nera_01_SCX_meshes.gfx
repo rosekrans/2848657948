@@ -1,0 +1,20 @@
+objectTypes = {
+
+#######  SCX  #######	
+	
+	pdxmesh = {
+		name = "protoss_nera_01_scx_carrier_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_carrier.mesh"
+		scale = 6.0
+		
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_nera_01_scx_dreadnought_mesh"
+		file = "gfx/models/ships/protoss_nera_01/protoss_nera_01_dreadnought.mesh"
+		scale = 6.0
+		
+		}
+	}
+}
