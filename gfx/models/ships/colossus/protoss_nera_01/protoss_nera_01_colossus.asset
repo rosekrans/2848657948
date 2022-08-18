@@ -1,12 +1,12 @@
 entity = {
 	name = "protoss_nera_01_colossus_entity"
 	pdxmesh = "avian_01_colossus_frame_mesh"
-	
+
 	default_state = "idle"
 	state = { name = "idle" animation = "idle" }
 	state = { name = "moving" animation = "idle" }
 	state = { name = "working" animation = "idle" }
-	state = { name = "death" animation = "death3" looping = no 
+	state = { name = "death" animation = "death3" looping = no
 		event = { time = 13.2 node = "frame_ship" particle = "dreadnought_explosion_particle" sound = { soundeffect = ship_destroyed } }
 		chance = {
 			if_current_state = {
@@ -17,7 +17,7 @@ entity = {
 			}
 		}
 	}
-	state = { name = "death" animation = "death3" looping = no 
+	state = { name = "death" animation = "death3" looping = no
 		event = { time = 9.13 node = "frame_ship" particle = "dreadnought_explosion_particle" sound = { soundeffect = ship_destroyed } }
 		chance = {
 			if_current_state = {
@@ -28,19 +28,19 @@ entity = {
 			}
 		}
 	}
-	
+
 	locator = { name = "part1" position = { -50 0 0 } }
 	locator = { name = "part3" position = { -50 0 0 } }
-	
+
 	#attach = { frame_ship = "avian_01_colossus_ship_entity" }
 }
 
 entity = {
 	name = "protoss_nera_01_colossus_ship_entity"
 	pdxmesh = "protoss_nera_01_colossus_mesh"
-	
+
 	scale = 17.4
-	
+
 	default_state = "idle"
 	# Actual idle state when being in idle/moving.
 	state = { name = "idle" animation = "idle" looping = no next_state = "idle" animation_blend_time = 5
@@ -55,7 +55,7 @@ entity = {
 		}
 		start_event = { trigger_once = yes sound = { soundeffect = "avian_colossus_idle" } }
 		start_event = { trigger_once = yes sound = { soundeffect = "avian_colossus_idle_layer" } }
-		
+
 		event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "light_locator_03" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
@@ -64,14 +64,14 @@ entity = {
 		event = { time = 0 node = "light_locator_06" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "light_locator_07" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "light_locator_08" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
-		
+
 		event = { time = 0 node = "root" particle = "avian_01_colossus_inner_core_effect" keep_particle = yes trigger_once = yes }
-		
+
 	#	event = { time = 0 node = "large_engine_01" particle = "arthropoid_01_3_0_exhaust_oblong_idle_particle" keep_particle = yes trigger_once = yes }
 	#	event = { time = 0 node = "large_engine_02" particle = "arthropoid_01_3_0_exhaust_oblong_idle_particle" keep_particle = yes trigger_once = yes }
 	}
-	# Idle state when going from opened state to idle. 
-	state = { name = "idle" animation = "idle" looping = no next_state = "idle" 
+	# Idle state when going from opened state to idle.
+	state = { name = "idle" animation = "idle" looping = no next_state = "idle"
 		chance = {
 			if_current_state = {
 				"idle" = 0
@@ -82,7 +82,7 @@ entity = {
 			}
 		}
 		event = { trigger_once = yes sound = { soundeffect = "avian_colossus_closing" stop_on_state_change = yes } }
-		
+
 		event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "light_locator_03" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
@@ -91,9 +91,9 @@ entity = {
 		event = { time = 0 node = "light_locator_06" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "light_locator_07" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "light_locator_08" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
-		
+
 		event = { time = 0 node = "root" particle = "avian_01_colossus_inner_core_effect" keep_particle = yes trigger_once = yes }
-	
+
 	#	event = { time = 0 node = "large_engine_01" particle = "arthropoid_01_3_0_ship_exhaust_oblong_moving_particle" keep_particle = yes trigger_once = yes }
 	#	event = { time = 0 node = "large_engine_02" particle = "arthropoid_01_3_0_ship_exhaust_oblong_moving_particle" keep_particle = yes trigger_once = yes }
 	}
@@ -109,7 +109,7 @@ entity = {
 			}
 		}
 		event = { trigger_once = yes sound = { soundeffect = "moving_out_colossus" stop_on_state_change = yes } }
-		
+
 		event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "light_locator_03" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
@@ -118,9 +118,9 @@ entity = {
 		event = { time = 0 node = "light_locator_06" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "light_locator_07" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "light_locator_08" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
-		
+
 		event = { time = 0 node = "root" particle = "avian_01_colossus_inner_core_effect" keep_particle = yes trigger_once = yes }
-	
+
 		event = { time = 0 node = "large_engine_01" particle = "avian_01_3_0_ship_exhaust_oblong_moving_particle" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "large_engine_02" particle = "avian_01_3_0_ship_exhaust_oblong_moving_particle" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "large_engine_03" particle = "avian_01_3_0_ship_exhaust_oblong_moving_particle" keep_particle = yes trigger_once = yes }
@@ -140,7 +140,7 @@ entity = {
 			}
 		}
 		event = { trigger_once = yes sound = { soundeffect = "avian_colossus_closing" stop_on_state_change = yes } }
-		
+
 		event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "light_locator_03" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
@@ -149,9 +149,9 @@ entity = {
 		event = { time = 0 node = "light_locator_06" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "light_locator_07" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "light_locator_08" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
-		
+
 		event = { time = 0 node = "root" particle = "avian_01_colossus_inner_core_effect" keep_particle = yes trigger_once = yes }
-		
+
 		event = { time = 0 node = "large_engine_01" particle = "avian_01_3_0_ship_exhaust_oblong_moving_particle" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "large_engine_02" particle = "avian_01_3_0_ship_exhaust_oblong_moving_particle" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "large_engine_03" particle = "avian_01_3_0_ship_exhaust_oblong_moving_particle" keep_particle = yes trigger_once = yes }
@@ -160,9 +160,9 @@ entity = {
 		event = { time = 0 node = "large_engine_06" particle = "avian_01_3_0_ship_exhaust_oblong_moving_particle" keep_particle = yes trigger_once = yes }
 	}
 	# Opened state, going after "kill_planet".
-	state = { name = "working_looping" animation = "idle" 
+	state = { name = "working_looping" animation = "idle"
 		event = { time = 0	id = "beam_start" }
-	
+
 		event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "light_locator_03" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
@@ -171,18 +171,18 @@ entity = {
 		event = { time = 0 node = "light_locator_06" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "light_locator_07" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "light_locator_08" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
-			
+
 	#	event = { time = 0 node = "large_engine_01" particle = "arthropoid_01_3_0_exhaust_oblong_idle_particle" keep_particle = yes trigger_once = yes }
 	#	event = { time = 0 node = "large_engine_02" particle = "arthropoid_01_3_0_exhaust_oblong_idle_particle" keep_particle = yes trigger_once = yes }
 	#	event = { time = 0 node = "large_engine_03" particle = "arthropoid_01_3_0_exhaust_oblong_idle_particle" keep_particle = yes trigger_once = yes }
 	}
 	# Opening state, goes into "working_looping" state when done.
-	state = { name = "working" animation = "idle" looping = no next_state = "working_looping" 
+	state = { name = "working" animation = "idle" looping = no next_state = "working_looping"
 		event = { trigger_once = yes sound = { soundeffect = "avian_colossus_opening" stop_on_state_change = yes } }
 		event = { time = 10.617 trigger_once = yes sound = { soundeffect = "avian_colossus_dome_opening" stop_on_state_change = yes } }
-	
+
 		event = { time = 1000 id = "beam_start" } #will never fire, but lets the game know that an event with this ID exists
-	
+
 		event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "light_locator_03" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
@@ -191,13 +191,13 @@ entity = {
 		event = { time = 0 node = "light_locator_06" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "light_locator_07" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "light_locator_08" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
-		
+
 		event = { time = 0 node = "root" particle = "avian_01_colossus_inner_core_effect" keep_particle = yes trigger_once = yes }
-		
+
 	#	event = { time = 0 node = "large_engine_01" particle = "arthropoid_01_3_0_ship_exhaust_oblong_moving_particle" keep_particle = yes trigger_once = yes }
 	#	event = { time = 0 node = "large_engine_02" particle = "arthropoid_01_3_0_ship_exhaust_oblong_moving_particle" keep_particle = yes trigger_once = yes }
 	#	event = { time = 0 node = "large_engine_03" particle = "arthropoid_01_3_0_ship_exhaust_oblong_moving_particle" keep_particle = yes trigger_once = yes }
-		
+
 	}
 	# Closed death state.
 	state = { name = "death" animation = "death3" looping = no
@@ -211,7 +211,7 @@ entity = {
 			}
 		}
 		event = { trigger_once = yes sound = { soundeffect = "avian_colossus_death" stop_on_state_change = yes } }
-		
+
 		event = { time = 0.0 node = "explosion_locator_01" particle = "ship_explosion_particle" sound = { soundeffect = "ship_destroyed" } keep_particle = yes trigger_once = yes }
 		event = { time = 3.0 node = "explosion_locator_02" particle = "ship_explosion_particle" sound = { soundeffect = "ship_destroyed" } keep_particle = yes trigger_once = yes }
 		event = { time = 4.0 node = "explosion_locator_03" particle = "ship_explosion_particle" sound = { soundeffect = "ship_destroyed" } keep_particle = yes trigger_once = yes }
@@ -230,7 +230,7 @@ entity = {
 			}
 		}
 		event = { trigger_once = yes sound = { soundeffect = "avian_colossus_death" stop_on_state_change = yes } }
-		
+
 		event = { time = 0.0 node = "explosion_locator_01" particle = "ship_explosion_particle" sound = { soundeffect = "ship_destroyed" } keep_particle = yes trigger_once = yes }
 		event = { time = 3.0 node = "explosion_locator_02" particle = "ship_explosion_particle" sound = { soundeffect = "ship_destroyed" } keep_particle = yes trigger_once = yes }
 		event = { time = 4.0 node = "explosion_locator_03" particle = "ship_explosion_particle" sound = { soundeffect = "ship_destroyed" } keep_particle = yes trigger_once = yes }
